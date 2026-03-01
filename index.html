@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virevo Pharmaceuticals</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="nav-logo">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Virevo-kJYQZpBFHSZVoeQml8ALLJionwIJUu.webp" alt="Virevo Logo" class="nav-logo-img">
+                    <span class="nav-logo-text">Virevo</span>
+                </a>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link">Research</a>
+                    <a href="#" class="nav-link">Publications</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+                <button class="btn btn-secondary">Partner with Us</button>
+                <button class="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Virevo-kJYQZpBFHSZVoeQml8ALLJionwIJUu.webp" alt="Virevo Logo" class="hero-logo">
+                    <h1 class="hero-title">
+                        Revolutionizing
+                        <span class="hero-title-highlight">Pharmaceutical Science</span>
+                    </h1>
+                    <p class="hero-description">
+                        Pioneering breakthrough treatments through innovative research and cutting-edge technology
+                    </p>
+                    <div class="hero-cta">
+                        <button class="btn btn-primary">Explore Research</button>
+                        <button class="btn btn-outline">View Publications</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process">
+            <div class="container">
+                <h2 class="section-title">Our Process</h2>
+                <p class="section-description">
+                    From discovery to development, our comprehensive approach ensures excellence at every stage
+                </p>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M14.25 12.5h-1.5v1.5h1.5v-1.5Zm-3 3.5h-1.5v1.5h1.5V16Zm0-7h-1.5v1.5h1.5V9Zm9.75-5.5v17a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 20.5v-17A2.5 2.5 0 0 1 5.5 1h13a2.5 2.5 0 0 1 2.5 2.5Zm-15.5 17a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-13h-15v13Zm15-15.5v1h-15v-1a1 1 0 0 1 1-1h13a1 1 0 0 1 1 1Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="process-step-title">Discovery</h3>
+                        <p class="process-step-description">Identifying novel compounds and therapeutic targets through advanced screening</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M5 19a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1c0-4.97-3.03-9-8-9s-8 4.03-8 9ZM16.5 3A1.5 1.5 0 0 0 15 4.5a1.5 1.5 0 0 0 2.56 1.06l.44.44a.75.75 0 0 0 1.06-1.06l-.44-.44A1.5 1.5 0 0 0 16.5 3Zm-9 0A1.5 1.5 0 0 1 9 4.5a1.5 1.5 0 0 1-2.56 1.06l-.44.44a.75.75 0 0 1-1.06-1.06l.44-.44A1.5 1.5 0 0 1 7.5 3ZM13 7.29V9a1 1 0 1 1-2 0V7.29A4.51 4.51 0 0 1 7.5 3a4.5 4.5 0 1 1 9 0A4.51 4.51 0 0 1 13 7.29Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="process-step-title">Pre-clinical Research</h3>
+                        <p class="process-step-description">Rigorous testing and validation of potential drug candidates</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 4a8 8 0 0 0-8 8c0 2.21.89 4.21 2.34 5.66A7.98 7.98 0 0 0 12 20c2.21 0 4.21-.89 5.66-2.34A7.98 7.98 0 0 0 20 12a8 8 0 0 0-8-8Zm0 14.5c-1.93 0-3.68-.78-4.95-2.05A6.48 6.48 0 0 1 5 12c0-3.58 2.92-6.5 6.5-6.5 3.58 0 6.5 2.92 6.5 6.5 0 1.75-.68 3.34-1.79 4.53a6.48 6.48 0 0 1-4.21 1.97ZM12 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2Zm-1 4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0v-5Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="process-step-title">Clinical Trials</h3>
+                        <p class="process-step-description">Comprehensive testing through multiple trial phases</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-icon">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M16.5 2A5.5 5.5 0 0 0 11 7.5V9H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V10a1 1 0 0 0-1-1h-5V7.5a3.5 3.5 0 0 1 7 0V9a1 1 0 1 0 2 0V7.5A5.5 5.5 0 0 0 16.5 2ZM7 11h10v10H7V11Zm5 2a1 1 0 0 0-1 1v4a1 1 0 1 0 2 0v-4a1 1 0 0 0-1-1Z"/>
+                            </svg>
+                        </div>
+                        <h3 class="process-step-title">Development</h3>
+                        <p class="process-step-description">Scaling up production while maintaining highest quality standards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="technology">
+            <div class="container">
+                <h2 class="section-title">Technology & Innovation</h2>
+                <p class="section-description">
+                    Leveraging cutting-edge technology to advance pharmaceutical research
+                </p>
+                <div class="tabs">
+                    <div class="tabs-list" role="tablist">
+                        <button class="tab active" role="tab" aria-selected="true" data-tab="ai">AI & Machine Learning</button>
+                        <button class="tab" role="tab" aria-selected="false" data-tab="biotech">Biotechnology</button>
+                        <button class="tab" role="tab" aria-selected="false" data-tab="analytics">Advanced Analytics</button>
+                    </div>
+                    <div class="tab-content active" data-tab="ai">
+                        <h3>AI-Powered Drug Discovery</h3>
+                        <p>Our AI algorithms analyze vast datasets to identify promising drug candidates and predict their effectiveness, significantly accelerating the discovery process.</p>
+                        <ul>
+                            <li>Molecular structure prediction</li>
+                            <li>Drug-target interaction analysis</li>
+                            <li>Automated screening processes</li>
+                            <li>Pattern recognition in clinical data</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" data-tab="biotech">
+                        <h3>Advanced Biotechnology</h3>
+                        <p>State-of-the-art biotech facilities enabling breakthrough discoveries in gene therapy, protein engineering, and cellular biology.</p>
+                        <ul>
+                            <li>CRISPR gene editing</li>
+                            <li>Protein crystallography</li>
+                            <li>High-throughput screening</li>
+                            <li>Cellular imaging</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" data-tab="analytics">
+                        <h3>Data Analytics Platform</h3>
+                        <p>Comprehensive data analysis tools providing deep insights into drug performance, patient responses, and research outcomes.</p>
+                        <ul>
+                            <li>Real-time data processing</li>
+                            <li>Predictive modeling</li>
+                            <li>Clinical trial analytics</li>
+                            <li>Research visualization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="impact">
+            <div class="container">
+                <h2 class="section-title">Global Impact</h2>
+                <p class="section-description">
+                    Making a difference in healthcare across the globe
+                </p>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm3.5-9a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5Zm-7 0A1.5 1.5 0 1 1 7 9.5 1.5 1.5 0 0 1 8.5 11Zm3.5 3a3.5 3.5 0 0 1-3.31-2.36 1 1 0 0 1 1.89-.64A1.5 1.5 0 0 0 12 12a1.5 1.5 0 0 0 1.42-1 1 1 0 0 1 1.89.64A3.5 3.5 0 0 1 12 14Z"/>
+                        </svg>
+                        <h3>North America</h3>
+                        <p class="impact-stat">40+ Research Partners</p>
+                        <p>Leading clinical trials and research initiatives</p>
+                    </div>
+                    <div class="impact-card">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm3.5-9a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5Zm-7 0A1.5 1.5 0 1 1 7 9.5 1.5 1.5 0 0 1 8.5 11Zm3.5 3a3.5 3.5 0 0 1-3.31-2.36 1 1 0 0 1 1.89-.64A1.5 1.5 0 0 0 12 12a1.5 1.5 0 0 0 1.42-1 1 1 0 0 1 1.89.64A3.5 3.5 0 0 1 12 14Z"/>
+                        </svg>
+                        <h3>Europe</h3>
+                        <p class="impact-stat">25+ Countries</p>
+                        <p>Extensive distribution network and research collaboration</p>
+                    </div>
+                    <div class="impact-card">
+                        <svg viewBox="0 0 24 24" width="48" height="48">
+                            <path fill="currentColor" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Zm3.5-9a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5Zm-7 0A1.5 1.5 0 1 1 7 9.5 1.5 1.5 0 0 1 8.5 11Zm3.5 3a3.5 3.5 0 0 1-3.31-2.36 1 1 0 0 1 1.89-.64A1.5 1.5 0 0 0 12 12a1.5 1.5 0 0 0 1.42-1 1 1 0 0 1 1.89.64A3.5 3.5 0 0 1 12 14Z"/>
+                        </svg>
+                        <h3>Asia Pacific</h3>
+                        <p class="impact-stat">15+ Manufacturing Sites</p>
+                        <p>State-of-the-art production facilities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <h2 class="section-title">News & Updates</h2>
+                <p class="section-description">
+                    Stay informed about our latest developments and achievements
+                </p>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <span class="news-category">Research</span>
+                        <h3>Breakthrough in Cancer Research</h3>
+                        <p>New findings show promising results in targeted therapy development.</p>
+                        <div class="news-footer">
+                            <span class="news-date">February 2024</span>
+                            <a href="#" class="btn btn-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <span class="news-category">Partnership</span>
+                        <h3>Global Partnership Announcement</h3>
+                        <p>Strategic collaboration with leading research institutions worldwide.</p>
+                        <div class="news-footer">
+                            <span class="news-date">January 2024</span>
+                            <a href="#" class="btn btn-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <span class="news-category">Achievement</span>
+                        <h3>Innovation Award 2024</h3>
+                        <p>Recognition for outstanding contributions to pharmaceutical science.</p>
+                        <div class="news-footer">
+                            <span class="news-date">January 2024</span>
+                            <a href="#" class="btn btn-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <h2 class="section-title">Partners & Collaborators</h2>
+                <p class="section-description">
+                    Working together with leading institutions to advance pharmaceutical research
+                </p>
+                <div class="partners-grid">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/160x80.png?text=Partner+Logo" alt="Partner Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Virevo-kJYQZpBFHSZVoeQml8ALLJionwIJUu.webp" alt="Virevo Logo" class="footer-logo">
+                    <span class="footer-logo-text">Virevo</span>
+                    <p>Advancing pharmaceutical science through innovation and research</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Share on social media">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Research Areas</h3>
+                    <ul>
+                        <li><a href="#">Drug Development</a></li>
+                        <li><a href="#">Clinical Trials</a></li>
+                        <li><a href="#">Biotechnology</a></li>
+                        <li><a href="#">Research Pipeline</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>1234 Research Park Drive</p>
+                        <p>Cambridge, MA 02142</p>
+                        <p>contact@virevo.com</p>
+                        <p>+1 (555) 123-4567</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Virevo Pharmaceuticals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
